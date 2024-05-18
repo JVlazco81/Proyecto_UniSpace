@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Kibi_Net"
+rootProject.name = "Proyecto_UniSpace"
 include(":app")
