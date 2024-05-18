@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf8e2"
+    tools:context=".Ver_Publicaciones">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:text="@string/Publicaciones"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--Imagen del usuario-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ImagenPublicacion"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/post"/>
+
+        <!-- View 1 -->
+        <TextView
+            android:text="ACA IRAN PUBLICACIONES DEL USUARIO"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#FB2C00"
+            android:layout_margin="15dp"
+            />
+
+        <!-- View 2 -->
+        <TextView
+            android:text="ACA IRAN PUBLICACIONES DEL USUARIO"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#FB7600"
+            android:layout_margin="10dp"
+            />
+
+        <!-- View 3 -->
+        <View
+            android:text="ACA IRAN PUBLICACIONES DEL USUARIO"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#F0FB00"
+            android:layout_margin="10dp"
+            />
+
+        <!-- View 4 -->
+        <View
+            android:text="ACA IRAN PUBLICACIONES DEL USUARIO"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#002EFB"
+            android:layout_margin="10dp"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

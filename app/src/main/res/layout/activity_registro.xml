@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf8e2"
+    tools:context=".Registro">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/RegistroTXT"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center">
+        </TextView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/foto"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center">
+        </ImageView>
+
+        <!--CORREO-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Correo"
+                android:id="@+id/Correo"
+                android:inputType="textEmailAddress">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--CONTRASEÑA-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Password"
+                android:id="@+id/Password"
+                android:inputType="textPassword">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--NOMBRES-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nombres"
+                android:id="@+id/Nombres"
+                android:inputType="textCapWords|textAutoCorrect">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--APELLIDOS-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Apellidos"
+                android:id="@+id/Apellidos"
+                android:inputType="textCapWords|textAutoCorrect">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--EDAD-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Edad"
+                android:id="@+id/Edad"
+                android:inputType="number">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--TELEFONO-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Telefono"
+                android:id="@+id/Telefono"
+                android:inputType="number">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--DIRECCION-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Direccion"
+                android:id="@+id/Direccion"
+                android:inputType="textCapWords|textAutoCorrect">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--BOTON-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RegistrarUsuarios"
+            android:text="@string/RegistrarUsuarios"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp">
+        </Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

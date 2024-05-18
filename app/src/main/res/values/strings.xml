@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Kibi_Net</string>
+
+    <string name="LoginBTN">Login</string>
+    <string name="RegistrarBTN">Registrarme</string>
+    <string name="title_activity_login">Login</string>
+
+    <!--Registro-->
+    <string name="RegistroTXT">REGISTRO</string>
+    <string name="Nombres">NOMBRES COMPLETOS</string>
+    <string name="Apellidos">APELLIDOS COMPLETOS</string>
+    <string name="Edad">EDAD</string>
+    <string name="Correo">ESCRIBA CORREO</string>
+    <string name="Password">ESCRIBA CONTRASEÑA</string>
+    <string name="Direccion">DIRECCION</string>
+    <string name="Telefono">TELEFONO</string>
+    <string name="RegistrarUsuarios">REGISTRARME</string>
+
+    <!--Login-->
+    <string name="CorreoLogin">Correo electronico</string>
+    <string name="PasswordLogin">Contraseña</string>
+    <string name="INGRESAR">LOGIN</string>
+
+
+    <!--DATOS DEL MENU-->
+    <string name="MisDatosOpcion">Mis Datos</string>
+    <string name="CrearPublicacionOpcion">Crear post</string>
+    <string name="Publicaciones">Publicaciones</string>
+    <string name="UsuariosOpcion">Usuarios</string>
+    <string name="ChatsOpcion">Chats</string>
+    <string name="CerrarSesion">Cerrar Sesion</string>
+
+
+    <!--MIS DATOS-->
+    <string name="MisDatosTXT">Mis Datos Personales</string>
+    <string name="uiDato">UID</string>
+    <string name="NombresDato">NOMBRES</string>
+    <string name="ApellidosDato">APELLIDOS</string>
+    <string name="CorreoDato">CORREO</string>
+    <string name="PasswordDato">PASSWORD</string>
+    <string name="EdadDato">EDAD</string>
+    <string name="DireccionDato">DIRECCION</string>
+    <string name="TelefonoDato">TELEFONO</string>
+    <string name="Actualizar">Actualizar Datos</string>
+    <string name="ActualizarPass">Actualizar Pass</string>
+
+    <!--CREAR PUBLICACIONES-->
+    <string name="CrearPublicacionesTXT">Crear Publicaciones</string>
+    <string name="Descripcion">Descrpcion de la publicacion</string>
+    <string name="ImagenDescripcion">Imagen</string>
+    <string name="SubirPost">Subir Post</string>
+
+    <!--PUBLICACIONES-->
+    <string name="PublicacionesTXT">Publicaciones</string>
+</resources>
