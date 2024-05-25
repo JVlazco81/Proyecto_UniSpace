@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081653240639",
+    "project_id": "red-social-unispace-c372d",
+    "storage_bucket": "red-social-unispace-c372d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081653240639:android:dc7c2288478e1e8550a98a",
+        "android_client_info": {
+          "package_name": "com.example.kibi_net"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Jv3xDOI6Iw8fVZXydB8iQ95PrxJEW8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
